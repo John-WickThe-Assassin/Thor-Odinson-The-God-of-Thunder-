@@ -1,25 +1,41 @@
 body {
     margin: 0;
-    padding-top: 800px;
+ text-align: center;
+ padding-top: 800px;
 }
 
+
 .profile {
-    width: 800px;
+    width: 500px;
     margin-bottom: 90px;
-    border-radius: 50%;
+    
 }
+
+#Contact {
+ background-color: crimson;   
+}
+
+#Fight_Scenes_and_Scenes {
+ background-color: darkgray;   
+    
+}
+
+#About_the_Actor {
+background-color: white;    
+} 
+
 
 #welcome {
     position: absolute;
     overflow: hidden;
-    height: 800px;
-    color: #FFFFFF;
+    height: 700px;
+    color: dodgerblue;
     left: 0;
     top: 0;
     bottom: 0;
     right: 0;
     opacity: 0.83;
-    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    background-color: black; 
     display: table;
     width: 100%;
     height: 100%;
@@ -36,7 +52,7 @@ h1 {
 #name {
     font-size: 30px;
     line-height: 1.2;
-    font-family: cursive
+    font-family: fantasy;
 }
 
 h2 {
@@ -49,8 +65,10 @@ h2 {
 #bio {
     padding: 50px;
     text-align: center;
+    background-color: darkgray;
     font-size: 42px;
 }
+
 
 .line {
     height: 6px;
@@ -73,7 +91,7 @@ p {
     vertical-align: middle;
 }
 
-.menu {
+.Menu {
     list-style: none;
     font-family: sans-serif;
     position: absolute;
@@ -81,20 +99,22 @@ p {
     right: 30px;
     z-index: 10;
     cursor: pointer;
+    color: dodgerblue;
 }
 
 .links {
     float: left;
-    color: black;
+    color: dodgerblue;
     padding-left: 9px;
     padding-right: 9px;
     padding-bottom: 5px;
     padding-top: 5px;
-    font-family: fantasy font-size: 10px
+    font-family: fantasy;
+    font-size: 20px;    
 }
 
 .links:hover {
-    background-color: cadetblue;
+    background-color:cadetblue;
 }
 
 a {
@@ -105,7 +125,7 @@ a {
     color: crimson;
 }
 
-<ul class="Menu" > <li class="links" > <a href="#Welcome" > Home</a > </li > <li class="links" > <a href="#Fight Scenes/Scenes" > Videos</a > </li > <li class="links" > <a href="#About the Actor" > Work</a > </li > <li class="links" > <a href="#Writing" > Writing</a > </li > <li class="links" > <a href="#Contact" > Contact</a > </li > </ul >  a href="#News" > News</a > </li > </ul >
+<ul class="Menu" > <li class="links" > <a href="#Welcome" > Home</a > </li > <li class="links" > <a href="#Fight Scenes/Scenes" > Videos</a > </li > <li class="links" > <a href="#About the Actor" > Work</a > </li > <li class="links" > <a href="#Writing" > Writing</a > </li > <li class="links" > <a href="#Contact" > Contact</a > </li >
 html{
   scroll-behavior: smooth;  
 }
