@@ -125,6 +125,11 @@ a {
     color: crimson;
 }
 
-<ul class="Menu" > <li class="links" > <a href="#Welcome" > Home</a > </li > <li class="links" > <a href="#Fight Scenes/Scenes" > Videos</a > </li > <li class="links" > <a href="#About the Actor" > Work</a > </li > <li class="links" > <a href="#Contact" > Contact</a > </li <ul class="News" > <li class="links" > <a href="#News" > News</a > </li >  <ul class="How To Contact Me" > <li class="links" > <a href="#How To Contact Me" > How To Contact Me</a > </li > html {
+<ul class="Menu" > <li class="links" > <a href="#Welcome" > Home</a > </li > <li class="links" > <a href="#Fight Scenes/Scenes" > Videos</a > </li > <li class="links" > <a href="#About the Actor" > Work</a > </li > <li class="links" > <a href="#Contact" > Contact</a > </li <ul class="News" > <li class="links" > <a href="#News" > News</a > </li >  <ul class="Goodbye" > <li class="links" > <a href="#Goodbye" > Goodbye</a > </li >  <ul class="Goodbye" >
+
+html {
+    
     scroll-behavior: smooth;
 }
+
+
